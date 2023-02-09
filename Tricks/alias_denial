@@ -1,0 +1,6 @@
+Deny access to commands by using Alias (will have to make changes to bashrc or profile)
+
+unalias="echo '...';"
+which="echo '...';"
+
+alias="echo '...';" #this last or no more alias for you this session
